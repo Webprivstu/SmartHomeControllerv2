@@ -24,7 +24,7 @@ namespace SmartHomeController
             set { colour = value; }
         }
 
-        // Constructor
+        // Constructor 
         
         public SmartLight (int deviceID, string deviceName, double brightness, string colour) : base (deviceID, deviceName)
         {
